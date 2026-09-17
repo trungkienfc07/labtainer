@@ -123,7 +123,25 @@ Như vậy có thể nhớ luồng:
 
 ---
 
-## Trang 19 – Điều hướng bằng Link
+## Trang 19 – Câu hỏi tương tác
+
+Đến slide này bạn có thể **dừng lại và hỏi khán giả**:
+
+> “Theo mọi người, tại sao trong React Router chúng ta lại dùng `Link` thay vì dùng thẻ `<a>` thông thường?”
+
+Đợi một vài giây cho mọi người trả lời, rồi bạn nói:
+
+“Đúng rồi. Điểm khác biệt chính nằm ở việc tải lại trang.
+
+Khi sử dụng thẻ `<a>`, trình duyệt thường thực hiện điều hướng theo cách truyền thống và tải lại trang.
+
+Còn `Link` của React Router cho phép thay đổi URL và chuyển route **ngay trong SPA mà không cần reload toàn bộ trang**.
+
+Nhờ vậy trải nghiệm chuyển trang sẽ mượt hơn và vẫn giữ đúng cơ chế của Single Page Application.”
+
+---
+
+## Trang 20 – Điều hướng bằng Link
 
 “Bây giờ chúng ta đưa `Link` vào code.
 
@@ -142,24 +160,6 @@ Ngoài hai route `/` và `/about`, chúng ta có thêm route `*` để hiển th
 Điểm quan trọng là khi dùng `Link`, việc chuyển trang được thực hiện ngay trong ứng dụng React, thay vì tải lại toàn bộ trang như cách điều hướng thông thường bằng thẻ `<a>`.
 
 Đây là một đặc điểm rất quan trọng trong Single Page Application.”
-
----
-
-## Trang 20 – Câu hỏi tương tác
-
-Đến slide này bạn có thể **dừng lại và hỏi khán giả**:
-
-> “Theo mọi người, tại sao trong React Router chúng ta lại dùng `Link` thay vì dùng thẻ `<a>` thông thường?”
-
-Đợi một vài giây cho mọi người trả lời, rồi bạn nói:
-
-“Đúng rồi. Điểm khác biệt chính nằm ở việc tải lại trang.
-
-Khi sử dụng thẻ `<a>`, trình duyệt thường thực hiện điều hướng theo cách truyền thống và tải lại trang.
-
-Còn `Link` của React Router cho phép thay đổi URL và chuyển route **ngay trong SPA mà không cần reload toàn bộ trang**.
-
-Nhờ vậy trải nghiệm chuyển trang sẽ mượt hơn và vẫn giữ đúng cơ chế của Single Page Application.”
 
 ---
 
