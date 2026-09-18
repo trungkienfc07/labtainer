@@ -30,18 +30,6 @@ Functional Component là một component được viết dưới dạng một h�
 
 Ví dụ ở bên trái, chúng ta có hàm `Home()`. Hàm này trả về một thẻ `h2` với nội dung `Home View`, vì vậy khi component `Home` được render thì giao diện tương ứng sẽ xuất hiện.
 
-Ở phía bên phải là mối quan hệ giữa **URL, Route và Component**.
-
-Luồng xử lý sẽ là:
-
-**URL → tìm Route phù hợp → render Component tương ứng.**
-
-Ví dụ:
-
-- URL `/` sẽ khớp với route `/` và render `Home`.
-- URL `/about` sẽ khớp với route `/about` và render `About`.
-- Còn dấu `*` được dùng để bắt các đường dẫn không khớp với những route đã định nghĩa và render `NoMatch`.
-
 Tóm lại, **Functional Component chịu trách nhiệm tạo giao diện, còn React Router chịu trách nhiệm kết nối URL với đúng Component.**”
 
 ---
